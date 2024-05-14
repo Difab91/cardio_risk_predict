@@ -337,3 +337,5 @@ taux_bonnes_predictions_classe1 <- bonnes_predictions_classe1 / length(vraies_va
 # Afficher le taux de bonnes prédictions pour la classe 1
 cat("Taux de bonnes prédictions pour la classe 1 :", taux_bonnes_predictions_classe1)
 cat("Taux de faux positifs:", 1-taux_bonnes_predictions_classe1)
+
+saveRDS(modele_selectionne, file = "modele_selectionne.rds")

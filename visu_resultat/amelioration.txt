@@ -1,0 +1,3 @@
+actuellement la page web est tres basique, rajout d'un contexte decoratif etc... pour la prochaine fois
+
+puis au lieu de remplir des 1 et 0 pour les variables catégorielles, rajouter des oui/non puis preciser la mesure pour les quantitatves.

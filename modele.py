@@ -27,7 +27,7 @@ class modele_cardio_risk():
         r_dataframe = pandas2ri.py2rpy(nouvelles_donnees)
         return self.appliquer_modele(r_dataframe)
 
-#nouvelles_donnees = pd.DataFrame({'age': [58], 'education': [3],'sex': [0], 'is_smoking': [0],'cigsPerDay': [31], 'BPMeds': [1],'prevalentStroke': [0], 'prevalentHyp': [1],'diabetes': [1], 'totChol': [201],'sysBP': [255.0], 'diaBP': [120.0],'BMI': [24.21], 'heartRate': [89],'glucose': [101], 'TenYearCHD': [0]})
+#nouvelles_donnees = pd.DataFrame({'age': [57], 'education': [3],'sex': [0], 'is_smoking': [0],'cigsPerDay': [31], 'BPMeds': [1],'prevalentStroke': [0], 'prevalentHyp': [1],'diabetes': [1], 'totChol': [201],'sysBP': [255.0], 'diaBP': [120.0],'BMI': [24.21], 'heartRate': [89],'glucose': [101]})
 #nouvelles_donnees['sex'] = pd.Categorical(nouvelles_donnees['sex'], categories=[0, 1], ordered=False)
 #print(nouvelles_donnees)
 

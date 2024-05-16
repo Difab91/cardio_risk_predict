@@ -1,0 +1,3 @@
+Flask
+pandas
+rpy2
